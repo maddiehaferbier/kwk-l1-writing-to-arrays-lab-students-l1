@@ -15,4 +15,4 @@ cart_item_prices.each do |price|
   big_ticket_prices << price
 end
 end
-puts big_ticket_prices
+big_ticket_prices
