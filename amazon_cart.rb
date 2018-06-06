@@ -1,10 +1,10 @@
-cart_item_prices = [12.43, 19.89, 3.39, 75.00]
-cart_item_prices.push(5.3)
+cart_item_prices = [12.43, 19.89, 3.49, 75.00]
 
-puts cart_item_prices
-
-count = 1
-cart_item_prices.each do |price| # each iterates through the array 
-  puts "the price is #{price}"
-  count += 1 
+tax_included = []
+  
+cart_item_prices.each do |prices|
+  price_with_tax = price * 1.08 
+  tax_included < < price_with_tax
 end 
+
+puts tax_included
