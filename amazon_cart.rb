@@ -13,5 +13,5 @@ cart_item_prices = [19.99, 75.0]
 cart_item_prices.each do |price|
   big_ticket_prices << price
 end
-puts big_ticket_prices
 end
+puts big_ticket_prices
