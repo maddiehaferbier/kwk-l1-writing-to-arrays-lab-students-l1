@@ -12,7 +12,7 @@
 cart_item_prices = []
 cart_item_prices.each do |price|
   if price >= 15
-  big_ticket_prices << price
+  big_ticket_price << price
 end
 end
 puts big_ticket_prices
