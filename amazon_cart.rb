@@ -4,7 +4,7 @@ cart_item_prices.push(5.3)
 puts cart_item_prices
 
 counts = 1
-cart_item_prices.each do |price| 
+cart_item_prices.each do |price| # each iterates through the array 
   puts "item #{count}: #{prices}"
   count += 1 
 end 
