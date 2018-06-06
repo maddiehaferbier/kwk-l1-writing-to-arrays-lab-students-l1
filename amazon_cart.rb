@@ -6,5 +6,5 @@ puts cart_item_prices
 counts = 1
 cart_item_prices.each do |price| # each iterates through the array 
   puts "the price is #{price}"
-  count += 1 
+  count ++ 1 
 end 
